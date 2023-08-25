@@ -23,10 +23,10 @@ const getData = async () => {
       <div class="card">
       <img src="${product.imageUrl}" class="card-img-top">
       <div class="card-body">
-        <h5 class="card-title">${product.name}</h5>
-        <p class="card-text">${product.description}</p>
-        <p class="card-text">${product.brand}</p>
-        <p class="card-text">${product.price}€</p>
+        <h5 class="name card-title">${product.name}</h5>
+        <p class="description card-text">${product.description}</p>
+        <p class="brand card-text">${product.brand}</p>
+        <p class="price card-text">${product.price}€</p>
         <a href="./details.html?productId=${product._id}" class="btn btn-info">Scopri di più</a>
         <a href="./backoffice.html?productId=${product._id}" class="btn btn-success">Modifica ora</a>
       </div>

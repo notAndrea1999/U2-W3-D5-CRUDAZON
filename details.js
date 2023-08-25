@@ -24,10 +24,10 @@ window.onload = async () => {
             <div class="card">
             <img src="${products.imageUrl}" class="card-img-top">
             <div class="card-body">
-              <h5 class="card-title">${products.name}</h5>
-              <p class="card-text">${products.description}</p>
-              <p class="card-text">${products.brand}</p>
-              <p class="card-text">${products.price}€</p>
+              <h5 class="name card-title">${products.name}</h5>
+              <p class="description card-text">${products.description}</p>
+              <p class="brand card-text">${products.brand}</p>
+              <p class="price card-text">${products.price}€</p>
               <a href="./backoffice.html?productId=${products._id}" class="btn btn-primary">Modifica Prodotto</a>
             </div>
             </div>`;

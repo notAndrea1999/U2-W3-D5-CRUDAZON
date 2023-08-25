@@ -26,6 +26,7 @@ window.onload = async () => {
             <div class="card-body">
               <h5 class="card-title">${products.name}</h5>
               <p class="card-text">${products.description}</p>
+              <p class="card-text">${products.brand}</p>
               <p class="card-text">${products.price}€</p>
               <a href="./backoffice.html?productId=${products._id}" class="btn btn-primary">Modifica Prodotto</a>
             </div>
